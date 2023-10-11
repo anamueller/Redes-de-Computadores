@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario name="/tmp/tmprz3deodb">
+  <networks>
+    <network id="4" name="switch" icon="" canvas="0" type="SWITCH">
+      <position x="276.9483642578125" y="423.5645446777344" lat="47.57531621324178" lon="-122.12859241452212" alt="2.0"/>
+    </network>
+    <network id="8" name="WiFi-Unifesp" icon="" canvas="0" type="WIRELESS_LAN">
+      <position x="274.6251525878906" y="152.01571655273438" lat="47.57778462299417" lon="-122.12862371917036" alt="2.0"/>
+    </network>
+    <network id="11" name="switch" icon="" canvas="1" type="SWITCH">
+      <position x="728.888916015625" y="238.88888549804688" lat="47.576994948660335" lon="-122.12250263794475" alt="2.0"/>
+    </network>
+    <network id="13" name="WiFi-Elisa" icon="" canvas="1" type="WIRELESS_LAN">
+      <position x="1040.0" y="125.55555725097656" lat="47.57802514263178" lon="-122.1183105003177" alt="2.0"/>
+    </network>
+    <network id="22" name="Switch" icon="" canvas="1" type="SWITCH">
+      <position x="834.4444580078125" y="556.6666870117188" lat="47.57410625712203" lon="-122.12108030559432" alt="2.0"/>
+    </network>
+    <network id="29" name="Switch" icon="" canvas="1" type="SWITCH">
+      <position x="1335.5555419921875" y="216.6666717529297" lat="47.57719694900783" lon="-122.11432796940754" alt="2.0"/>
+    </network>
+  </networks>
+  <devices>
+    <device id="1" name="Servidor-Unifesp" icon="/home/anaclara/.coregui/icons/host.png" canvas="0" type="PC" class="" image="">
+      <position x="448.95733642578125" y="440.8260498046875" lat="47.575159300262065" lon="-122.12627464019155" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="2" name="Computador-Lab2" icon="" canvas="0" type="PC" class="" image="">
+      <position x="125.96072387695312" y="510.264892578125" lat="47.574528072704204" lon="-122.13062693209812" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="3" name="Computador-Lab1" icon="" canvas="0" type="PC" class="" image="">
+      <position x="310.0796813964844" y="560.242431640625" lat="47.5740737516691" lon="-122.12814597899359" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="5" name="Roteador-Unifesp" icon="" canvas="0" type="router" class="" image="">
+      <position x="391.31427001953125" y="285.0572509765625" lat="47.57657527484472" lon="-122.1270513649052" alt="2.0"/>
+      <configservices>
+        <service name="OSPFv2"/>
+        <service name="IPForward"/>
+        <service name="OSPFv3"/>
+        <service name="zebra"/>
+      </configservices>
+    </device>
+    <device id="6" name="Laptop-Paulo" icon="" canvas="0" type="PC" class="" image="">
+      <position x="83.97418975830078" y="158.74972534179688" lat="47.577723411494944" lon="-122.13119268927802" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="7" name="Laptop-Ana" icon="" canvas="0" type="PC" class="" image="">
+      <position x="454.1986389160156" y="154.3277587890625" lat="47.57776360675828" lon="-122.12620401505951" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="9" name="Laptop-Elisa" icon="" canvas="1" type="PC" class="" image="">
+      <position x="864.4444580078125" y="124.44444274902344" lat="47.57803524250362" lon="-122.12067606371647" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="10" name="Desktop-Elisa" icon="" canvas="1" type="PC" class="" image="">
+      <position x="724.4444580078125" y="112.22222137451172" lat="47.578146340618495" lon="-122.12256252581314" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="12" name="Roteador-Elisa" icon="" canvas="1" type="router" class="" image="">
+      <position x="900.0" y="240.0" lat="47.57698484858783" lon="-122.12019696241437" alt="2.0"/>
+      <configservices>
+        <service name="OSPFv2"/>
+        <service name="IPForward"/>
+        <service name="OSPFv3"/>
+        <service name="zebra"/>
+      </configservices>
+    </device>
+    <device id="14" name="Computador-Lab2" icon="" canvas="1" type="PC" class="" image="">
+      <position x="80.0" y="392.22222900390625" lat="47.57560112439868" lon="-122.13124624040904" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="15" name="Computador-Lab1" icon="" canvas="1" type="PC" class="" image="">
+      <position x="173.3333282470703" y="271.1111145019531" lat="47.57670204659887" lon="-122.12998859907981" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="16" name="Roteador-Vivo" icon="" canvas="1" type="router" class="" image="">
+      <position x="852.2222290039062" y="413.3333435058594" lat="47.57540921813441" lon="-122.12084075494327" alt="2.0"/>
+      <configservices>
+        <service name="OSPFv2"/>
+        <service name="IPForward"/>
+        <service name="OSPFv3"/>
+        <service name="zebra"/>
+      </configservices>
+    </device>
+    <device id="17" name="Servidor-Vivo" icon="/home/anaclara/.coregui/icons/host.png" canvas="1" type="PC" class="" image="">
+      <position x="704.4444580078125" y="595.5555419921875" lat="47.57375273531013" lon="-122.12283202039836" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="18" name="Servidor-Vivo" icon="/home/anaclara/.coregui/icons/host.png" canvas="1" type="PC" class="" image="">
+      <position x="985.5555419921875" y="602.2222290039062" lat="47.573692131093516" lon="-122.11904412464916" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="21" name="Servidor-Vivo" icon="" canvas="0" type="PC" class="" image="">
+      <position x="976.6666870117188" y="715.5555419921875" lat="47.572661852009155" lon="-122.11916389956349" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="19" name="Servidor-Vivo" icon="" canvas="0" type="PC" class="" image="">
+      <position x="700.0" y="704.4444580078125" lat="47.57276286043026" lon="-122.12289190826672" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="20" name="Servidor-Vivo" icon="" canvas="0" type="PC" class="" image="">
+      <position x="838.888916015625" y="706.6666870117188" lat="47.572742658650654" lon="-122.12102041772596" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="23" name="Roteador-RNP" icon="" canvas="1" type="router" class="" image="">
+      <position x="1308.888916015625" y="415.5555419921875" lat="47.57538901765311" lon="-122.11468729497291" alt="2.0"/>
+      <configservices>
+        <service name="OSPFv2"/>
+        <service name="IPForward"/>
+        <service name="OSPFv3"/>
+        <service name="zebra"/>
+      </configservices>
+    </device>
+    <device id="24" name="Servidor-RNP" icon="" canvas="0" type="PC" class="" image="">
+      <position x="1431.111083984375" y="117.77777862548828" lat="47.57809584148568" lon="-122.11304038434974" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="25" name="Servidor-RNP" icon="" canvas="0" type="PC" class="" image="">
+      <position x="1331.111083984375" y="88.88888549804688" lat="47.57835843640285" lon="-122.11438785727593" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="26" name="Servidor-RNP" icon="" canvas="0" type="PC" class="" image="">
+      <position x="1435.5555419921875" y="198.88888549804688" lat="47.57735854886343" lon="-122.11298049648137" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="27" name="Servidor-RNP" icon="" canvas="0" type="PC" class="" image="">
+      <position x="1228.888916015625" y="113.33333587646484" lat="47.57813624076809" lon="-122.11576527331385" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+    <device id="28" name="Servidor-RNP" icon="" canvas="0" type="PC" class="" image="">
+      <position x="1216.6666259765625" y="195.55555725097656" lat="47.577388848720155" lon="-122.1159299653631" alt="2.0"/>
+      <configservices>
+        <service name="DefaultRoute"/>
+      </configservices>
+    </device>
+  </devices>
+  <links>
+    <link node1="4" node2="2">
+      <iface2 id="0" name="eth0" ip4="10.0.0.20" ip4_mask="24" ip6="2001::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="3">
+      <iface2 id="0" name="eth0" ip4="10.0.0.21" ip4_mask="24" ip6="2001::15" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="1">
+      <iface2 id="0" name="eth0" ip4="10.0.0.22" ip4_mask="24" ip6="2001::16" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="14">
+      <iface2 id="0" name="eth0" ip4="10.0.0.23" ip4_mask="24" ip6="2001::17" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="15">
+      <iface2 id="0" name="eth0" ip4="10.0.0.24" ip4_mask="24" ip6="2001::18" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="5">
+      <iface2 id="1" name="eth1" ip4="10.0.0.1" ip4_mask="24" ip6="2001::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="8" node2="6">
+      <iface2 id="0" name="eth0" ip4="10.0.1.20" ip4_mask="32" ip6="2001:0:0:1::14" ip6_mask="128"/>
+    </link>
+    <link node1="8" node2="7">
+      <iface2 id="0" name="eth0" ip4="10.0.1.20" ip4_mask="32" ip6="2001:0:0:1::14" ip6_mask="128"/>
+    </link>
+    <link node1="8" node2="5">
+      <iface2 id="0" name="eth0" ip4="10.0.1.1" ip4_mask="32" ip6="2001:0:0:1::1" ip6_mask="128"/>
+    </link>
+    <link node1="11" node2="10">
+      <iface2 id="0" name="eth0" ip4="10.0.2.20" ip4_mask="24" ip6="2001:0:0:2::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="11" node2="12">
+      <iface2 id="0" name="eth0" ip4="10.0.2.1" ip4_mask="24" ip6="2001:0:0:2::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="13" node2="9">
+      <iface2 id="0" name="eth0" ip4="10.0.3.20" ip4_mask="32" ip6="2001:0:0:3::14" ip6_mask="128"/>
+    </link>
+    <link node1="13" node2="12">
+      <iface2 id="1" name="eth1" ip4="10.0.3.2" ip4_mask="32" ip6="2001:0:0:3::2" ip6_mask="128"/>
+    </link>
+    <link node1="22" node2="17">
+      <iface2 id="0" name="eth0" ip4="10.0.4.20" ip4_mask="24" ip6="2001:0:0:4::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="22" node2="20">
+      <iface2 id="0" name="eth0" ip4="10.0.4.21" ip4_mask="24" ip6="2001:0:0:4::15" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="22" node2="18">
+      <iface2 id="0" name="eth0" ip4="10.0.4.22" ip4_mask="24" ip6="2001:0:0:4::16" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="22" node2="21">
+      <iface2 id="0" name="eth0" ip4="10.0.4.23" ip4_mask="24" ip6="2001:0:0:4::17" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="22" node2="19">
+      <iface2 id="0" name="eth0" ip4="10.0.4.24" ip4_mask="24" ip6="2001:0:0:4::18" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="22" node2="16">
+      <iface2 id="3" name="eth3" ip4="10.0.4.1" ip4_mask="24" ip6="2001:0:0:4::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="29" node2="27">
+      <iface2 id="0" name="eth0" ip4="10.0.8.20" ip4_mask="24" ip6="2001:0:0:8::14" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="29" node2="25">
+      <iface2 id="0" name="eth0" ip4="10.0.8.21" ip4_mask="24" ip6="2001:0:0:8::15" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="29" node2="24">
+      <iface2 id="0" name="eth0" ip4="10.0.8.22" ip4_mask="24" ip6="2001:0:0:8::16" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="29" node2="26">
+      <iface2 id="0" name="eth0" ip4="10.0.8.23" ip4_mask="24" ip6="2001:0:0:8::17" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="29" node2="28">
+      <iface2 id="0" name="eth0" ip4="10.0.8.24" ip4_mask="24" ip6="2001:0:0:8::18" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="29" node2="23">
+      <iface2 id="1" name="eth1" ip4="10.0.8.1" ip4_mask="24" ip6="2001:0:0:8::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="16" node2="12">
+      <iface1 id="1" name="eth1" ip4="10.0.6.1" ip4_mask="24" ip6="2001:0:0:6::1" ip6_mask="64"/>
+      <iface2 id="2" name="eth2" ip4="10.0.6.2" ip4_mask="24" ip6="2001:0:0:6::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="16" node2="23">
+      <iface1 id="2" name="eth2" ip4="10.0.7.1" ip4_mask="24" ip6="2001:0:0:7::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" ip4="10.0.7.2" ip4_mask="24" ip6="2001:0:0:7::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="5" node2="16">
+      <iface1 id="2" name="eth2" ip4="10.0.5.1" ip4_mask="24" ip6="2001:0:0:5::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" ip4="10.0.5.2" ip4_mask="24" ip6="2001:0:0:5::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+  </links>
+  <mobility_configurations>
+    <mobility_configuration node="8" model="basic_range">
+      <configuration name="range" value="275"/>
+      <configuration name="bandwidth" value="54000000"/>
+      <configuration name="jitter" value="0"/>
+      <configuration name="delay" value="5000"/>
+      <configuration name="error" value="0.0"/>
+      <configuration name="promiscuous" value="0"/>
+    </mobility_configuration>
+    <mobility_configuration node="13" model="basic_range">
+      <configuration name="range" value="275"/>
+      <configuration name="bandwidth" value="54000000"/>
+      <configuration name="jitter" value="0"/>
+      <configuration name="delay" value="5000"/>
+      <configuration name="error" value="0.0"/>
+      <configuration name="promiscuous" value="0"/>
+    </mobility_configuration>
+  </mobility_configurations>
+  <configservice_configurations>
+    <service name="DefaultRoute" node="1"/>
+    <service name="DefaultRoute" node="2"/>
+    <service name="DefaultRoute" node="3"/>
+    <service name="OSPFv2" node="5"/>
+    <service name="IPForward" node="5"/>
+    <service name="OSPFv3" node="5"/>
+    <service name="zebra" node="5"/>
+    <service name="DefaultRoute" node="6"/>
+    <service name="DefaultRoute" node="7"/>
+    <service name="DefaultRoute" node="9"/>
+    <service name="DefaultRoute" node="10"/>
+    <service name="OSPFv2" node="12"/>
+    <service name="IPForward" node="12"/>
+    <service name="OSPFv3" node="12"/>
+    <service name="zebra" node="12"/>
+    <service name="DefaultRoute" node="14"/>
+    <service name="DefaultRoute" node="15"/>
+    <service name="OSPFv2" node="16"/>
+    <service name="IPForward" node="16"/>
+    <service name="OSPFv3" node="16"/>
+    <service name="zebra" node="16"/>
+    <service name="DefaultRoute" node="17"/>
+    <service name="DefaultRoute" node="18"/>
+    <service name="DefaultRoute" node="21"/>
+    <service name="DefaultRoute" node="19"/>
+    <service name="DefaultRoute" node="20"/>
+    <service name="OSPFv2" node="23"/>
+    <service name="IPForward" node="23"/>
+    <service name="OSPFv3" node="23"/>
+    <service name="zebra" node="23"/>
+    <service name="DefaultRoute" node="24"/>
+    <service name="DefaultRoute" node="25"/>
+    <service name="DefaultRoute" node="26"/>
+    <service name="DefaultRoute" node="27"/>
+    <service name="DefaultRoute" node="28"/>
+  </configservice_configurations>
+  <session_origin lat="47.579166412353516" lon="-122.13232421875" alt="2.0" scale="150.0"/>
+  <session_options>
+    <configuration name="controlnet" value=""/>
+    <configuration name="controlnet0" value=""/>
+    <configuration name="controlnet1" value=""/>
+    <configuration name="controlnet2" value=""/>
+    <configuration name="controlnet3" value=""/>
+    <configuration name="controlnet_updown_script" value=""/>
+    <configuration name="enablerj45" value="1"/>
+    <configuration name="preservedir" value="0"/>
+    <configuration name="enablesdt" value="0"/>
+    <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+    <configuration name="ovs" value="0"/>
+    <configuration name="platform_id_start" value="1"/>
+    <configuration name="nem_id_start" value="1"/>
+    <configuration name="link_enabled" value="1"/>
+    <configuration name="loss_threshold" value="30"/>
+    <configuration name="link_interval" value="1"/>
+    <configuration name="link_timeout" value="4"/>
+    <configuration name="mtu" value="0"/>
+  </session_options>
+  <session_metadata>
+    <configuration name="canvas" value="{&quot;gridlines&quot;: true, &quot;canvases&quot;: [{&quot;id&quot;: 1, &quot;wallpaper&quot;: null, &quot;wallpaper_style&quot;: 1, &quot;fit_image&quot;: false, &quot;dimensions&quot;: [1500, 950]}]}"/>
+    <configuration name="hidden" value="[]"/>
+    <configuration name="shapes" value="[{&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [195.04040404040418, 112.0493827160495], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [837.7777777777777, 30.000000000000007], &quot;label&quot;: &quot;Rede Elisa (Residencial)&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [1032.2222222222222, 385.55555555555554], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [683.3333333333334, 624.4444444444445, 683.3333333333334, 624.4444444444445], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [1291.111111111111, 285.55555555555554, 1291.111111111111, 285.55555555555554], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [6.666666666666682, 4.444444444444453, 586.6666666666666, 626.6666666666666], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#CFCFFF&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [292.22222222222223, 50.00000000000001], &quot;label&quot;: &quot;Rede Unifesp (Institucional)&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [283.3333333333333, 68.8888888888889], &quot;label&quot;: &quot;IP Rede Rot: 10.0.0.0/24&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [286.6666666666667, 94.44444444444444], &quot;label&quot;: &quot;IP Rede WiFi: 10.0.1.0/32&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [595.5555555555555, 7.777777777777786, 1116.6666666666667, 290.0], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#74d6d3&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [1065.5555555555554, 391.1111111111111, 1065.5555555555554, 391.1111111111111], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [780.0, 54.44444444444445], &quot;label&quot;: &quot;IP Rede Rot: 10.0.2.0/24&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [783.3333333333333, 74.44444444444444], &quot;label&quot;: &quot;IP Rede WiFi: 10.0.3.0/32&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [850.0, 336.6666666666667], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [840.0, 794.4444444444445], &quot;label&quot;: &quot;IP Rede: 10.0.4.0/24&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [837.7777777777777, 770.0], &quot;label&quot;: &quot;Datacenter Vivo&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [605.5555555555555, 530.0, 1070.0, 830.0], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#ffcfff&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;oval&quot;, &quot;iconcoords&quot;: [1157.7777777777778, 4.444444444444453, 1488.888888888889, 287.77777777777777], &quot;label&quot;: &quot;&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;#ffff7f&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 0, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [1330.0, 14.444444444444452], &quot;label&quot;: &quot;Datacenter RNP&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [1326.6666666666667, 35.555555555555564], &quot;label&quot;: &quot;IP Rede: 10.0.8.0/24&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [292.22222222222223, 31.111111111111118], &quot;label&quot;: &quot;Rede de Acesso&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [982.2222222222222, 61.111111111111114], &quot;label&quot;: &quot;Rede de Acesso&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [836.6666666666666, 814.4444444444445], &quot;label&quot;: &quot;Rede de N\u00facleo&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}, {&quot;canvas&quot;: 1, &quot;type&quot;: &quot;text&quot;, &quot;iconcoords&quot;: [1330.0, 55.555555555555564], &quot;label&quot;: &quot;Rede de N\u00facleo&quot;, &quot;fontfamily&quot;: &quot;Arial&quot;, &quot;fontsize&quot;: 12, &quot;labelcolor&quot;: &quot;#000000&quot;, &quot;color&quot;: &quot;&quot;, &quot;border&quot;: &quot;#000000&quot;, &quot;width&quot;: 1, &quot;bold&quot;: false, &quot;italic&quot;: false, &quot;underline&quot;: false}]"/>
+    <configuration name="edges" value="[]"/>
+  </session_metadata>
+  <default_services>
+    <node type="mdr">
+      <service name="zebra"/>
+      <service name="OSPFv3MDR"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="PC">
+      <service name="DefaultRoute"/>
+    </node>
+    <node type="prouter"/>
+    <node type="router">
+      <service name="zebra"/>
+      <service name="OSPFv2"/>
+      <service name="OSPFv3"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="host">
+      <service name="DefaultRoute"/>
+      <service name="SSH"/>
+    </node>
+  </default_services>
+</scenario>
